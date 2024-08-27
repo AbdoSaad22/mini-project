@@ -1,0 +1,22 @@
+:root { 
+  --bg-color: #f6f6f6;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; 
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--bg-color); 
+  display: flex;
+  flex-direction: column; 
+  
+}
+
+#root {
+  flex: 1; 
+}

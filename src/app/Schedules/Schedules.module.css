@@ -1,0 +1,93 @@
+.container {
+    display: flex; 
+    width: 100%; 
+    height: calc(100vh - 100px);
+
+}
+.aside {
+    background-color: #fff;
+    padding: 20px;
+    width: 20%;
+    direction: rtl;
+    border: 1px solid #000;
+    margin: 10px;
+    
+}
+
+.header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.item {
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    font-size: 1.1rem;
+}
+
+.item:last-child {
+    border: none;
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    color: #000;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: #555;
+}
+
+
+.scheduleContainer {
+  margin-top: 30px;
+  text-align: center;
+  width: 70%;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  text-align: left;
+  font-size: 18px;
+}
+
+.th, .td {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+.th {
+  background-color: #f2f2f2;
+  text-align: center;
+  font-weight: bold;
+}
+
+.td {
+  text-align: center;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table tr:hover {
+  background-color: #f1f1f1;
+}

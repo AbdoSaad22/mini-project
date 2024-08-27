@@ -1,0 +1,85 @@
+.aside {
+  width: 250px;
+  background-color: #fffefe;
+  color: #000;
+  height: fit-content;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.toggleButton {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  color: #000;
+  display: none;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menuItem {
+  padding: 15px 10px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  color: black;
+}
+.link {
+  text-decoration: none; 
+  color: inherit; 
+}
+.menuItem:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  border-radius: 0;
+}
+
+.active {
+  background-color: rgba(0, 0, 0, 1);
+  border-radius: 0;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .toggleButton {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .aside.open .nav {
+    display: block;
+  }
+}
+
+@media (max-width: 480px) {
+  .toggleButton {
+    font-size: 20px;
+  }
+}

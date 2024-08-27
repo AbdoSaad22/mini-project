@@ -1,0 +1,107 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  border: none;
+  background: transparent;
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+}
+
+.title {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.uploadSection {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.fileButton {
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+}
+
+.fileButton:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.fileInput {
+  display: none;
+}
+
+.uploadLabel {
+  font-weight: bold;
+  color: #555;
+}
+
+.uploadButton {
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.uploadButton:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}

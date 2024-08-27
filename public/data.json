@@ -1,0 +1,25 @@
+{
+  "cards": [
+    {
+      "title": "New Research Paper Published",
+      "description": "We are proud to announce that a new research paper on the innovative applications of Artificial Intelligence (AI) in healthcare has been published by our esteemed faculty members. This groundbreaking study delves into how AI technologies can revolutionize patient care, improve diagnostic accuracy, and optimize treatment plans. The paper highlights the potential of machine learning algorithms to analyze complex medical data, predict patient outcomes, and assist healthcare professionals in making more informed decisions.",
+      "image": "/images/research.jpg",
+      "link": "/news/research-paper",
+      "date": "2024-08-10"
+    },
+    {
+      "title": "Upcoming Student Workshop",
+      "description": "Join us for a workshop on web development next month.",
+      "image": "/images/workshop.jpg",
+      "link": "/news/student-workshop",
+      "date": "2024-08-09"
+    },
+    {
+      "title": "New Faculty Member",
+      "description": "We welcome Dr. Jane Doe to our faculty.",
+      "image": "/images/faculty.jpg",
+      "link": "/news/new-faculty",
+      "date": "2024-08-08"
+    }
+  ]
+}

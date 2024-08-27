@@ -1,0 +1,51 @@
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 20px;;
+  color: white;
+}
+
+.contact, .services {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.contact h3, .services h3 {
+  background-color: #555;
+  color: white;
+  padding: 10px;
+  margin: -20px -20px 10px -20px; 
+}
+
+.services ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services li {
+  margin-bottom: 10px;
+}
+
+.logo {
+  flex: 2;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+}
+
+.logoImage {
+  margin-bottom: 70px;
+  font-size: 42px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .services {
+    display: none;
+  }
+}

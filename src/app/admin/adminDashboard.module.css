@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+.content {
+  display: flex;
+  flex: 1; 
+}
+
+.aside {
+  flex: 0 0 250px; 
+  background-color: #fffefe;
+  padding: 20px;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("../../../public/images/admin.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card {
+  flex: 1 1 calc(33% - 40px);
+  min-width: 300px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
